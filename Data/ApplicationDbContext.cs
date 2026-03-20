@@ -13,6 +13,8 @@ public ApplicationDbContext(DbContextOptions<ApplicationDbContext> options) : ba
     //Aqui nós declaramos a Model que você acabou de criar!
     public DbSet<Categoria> Categorias { get; set; }
     public DbSet<Local> Locais { get; set; }
+
+    public DbSet<Evento> Eventos { get; set; }
 }
 //Passo 3 :
 //Criar a migration que será responsável po
